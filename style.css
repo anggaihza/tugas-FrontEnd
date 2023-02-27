@@ -1,0 +1,272 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(88, 72, 41);
+  height: 50px;
+  padding: 0 70px;
+  align-items: center;
+  color: wheat;
+}
+
+.navbar:hover {
+  cursor: pointer;
+}
+
+.sub-nav {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+/* s *ss*/
+.head {
+  /* margin-top: 30px; */
+  height: 550px;
+  background-image: url(./kinanti.png);
+  background-size: cover;
+  background-position: 0 -200px;
+}
+
+.profile {
+  margin-top: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: #666;
+  font-size: 30px;
+}
+
+.h6 {
+  margin-top: 10px;
+  text-align: center;
+  color: #666;
+}
+/* a */
+.box {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.box1 {
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  text-align: center;
+  color: #666;
+}
+
+.box1 h5 {
+  margin-top: 40px;
+  font-weight: bold;
+  color: #201f1f;
+}
+
+.box1 p {
+  margin-top: 7px;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+}
+
+.bulet {
+  border-radius: 100%;
+  background-image: url(./profil.jpg);
+  background-size: cover;
+  background-position: 0 -100px;
+}
+
+.img2 {
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #666;
+  height: 300px;
+  background-image: url(./img.jpg);
+  background-size: cover;
+  background-position: 0 -180px;
+}
+
+.boxx {
+  display: grid;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  background-color: rgb(255, 255, 255);
+  gap: 30px;
+}
+
+.box2 {
+  height: 200px;
+  color: #666;
+}
+
+.box2 p {
+  font-size: 0.9em;
+}
+
+.comTitle h3 {
+  padding-left: 30px;
+  padding-top: 60px;
+  color: #201f1f;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.more {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #666;
+  border-radius: 30px;
+  width: 20%;
+  text-align: center;
+}
+.more p {
+  font-weight: bold;
+  color: #201f1f;
+}
+
+.footer {
+  background-color: #201f1f;
+  height: 30px;
+  text-align: center;
+}
+
+.footer .copy {
+  padding-top: 9px;
+  color: #eaeaea;
+  margin-top: 20px;
+}
